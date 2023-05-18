@@ -10,5 +10,6 @@
   "python.formatting.provider": "black",
   "[python]": {
     "editor.formatOnSave": true
-  }
+  },
+  "python.linting.pylintPath": "venv/bin/pylint"
 }
