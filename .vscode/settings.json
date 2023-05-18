@@ -1,6 +1,12 @@
 {
   "editor.tabSize": 2,
+  "files.eol": "\n",
   "eslint.validate": ["html", "javascript", "javascriptreact"],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -11,5 +17,5 @@
   "[python]": {
     "editor.formatOnSave": true
   },
-  "python.linting.pylintPath": "venv/bin/pylint"
+  "python.linting.pylintArgs": ["--disable=C0111"]
 }
